@@ -1,0 +1,21 @@
+{
+  "alarms": [
+    {
+      "name": "EC2-High-Network-Out",
+      "metric": "NetworkOut",
+      "threshold": 50000000,
+      "period": 300,
+      "evaluationPeriods": 1,
+      "comparisonOperator": "GreaterThanThreshold"
+    },
+    {
+      "name": "IAM-Unusual-API-Calls",
+      "metric": "CallCount",
+      "namespace": "AWS/CloudTrail",
+      "threshold": 100,
+      "period": 300,
+      "evaluationPeriods": 1,
+      "comparisonOperator": "GreaterThanThreshold"
+    }
+  ]
+}
