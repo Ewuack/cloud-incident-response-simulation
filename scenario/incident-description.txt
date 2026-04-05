@@ -1,0 +1,10 @@
+Incident Scenario: Unauthorized Access to EC2 Instance
+
+Summary:
+A CloudWatch alarm triggered due to unusual outbound traffic from an EC2 instance. GuardDuty flagged the instance for potential credential compromise. The goal is to detect, contain, and remediate the incident while preserving forensic evidence.
+
+Key Indicators:
+- High outbound traffic
+- GuardDuty: UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration
+- CloudTrail: Unusual API calls
+- SSH login attempts from unknown IPs
