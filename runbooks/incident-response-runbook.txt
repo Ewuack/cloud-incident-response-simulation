@@ -1,0 +1,31 @@
+AWS Incident Response Runbook
+
+1. Preparation
+   - Validate CloudTrail logging
+   - Ensure GuardDuty is enabled
+   - Confirm IAM least privilege
+
+2. Detection
+   - Review CloudWatch alarms
+   - Check GuardDuty findings
+   - Analyze CloudTrail logs
+
+3. Containment
+   - Isolate compromised instance
+   - Rotate IAM credentials
+   - Preserve forensic evidence
+
+4. Eradication
+   - Patch vulnerabilities
+   - Remove malicious artifacts
+   - Rebuild compromised resources
+
+5. Recovery
+   - Deploy clean instance
+   - Validate application health
+   - Monitor for recurring activity
+
+6. Lessons Learned
+   - Document root cause
+   - Update runbooks
+   - Improve monitoring
