@@ -1,0 +1,16 @@
+Incident Detection Steps
+
+1. CloudWatch Alarm Triggered
+   - Outbound traffic exceeded threshold
+   - Alarm: EC2-High-Network-Out
+
+2. GuardDuty Findings
+   - UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration
+   - Recon:EC2/PortProbeUnprotectedPort
+
+3. CloudTrail Logs
+   - Unusual API calls from compromised instance
+   - IAM role used outside normal patterns
+
+4. VPC Flow Logs
+   - Traffic to unknown external IPs
