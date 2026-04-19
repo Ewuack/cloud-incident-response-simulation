@@ -33,11 +33,11 @@ cloud-incident-response-simulation/
 
 | Phase | Description | Key Activities | SLA |
 |-------|-------------|---------------|-----|
-| Detection | Identify potential security events through automated monitoring | GuardDuty alerts, CloudTrail analysis, anomaly detection | < 5 min |
-| Triage | Classify severity and determine response priority | Alert scoring, impact assessment, team notification | < 15 min |
-| Containment | Isolate affected resources to prevent lateral movement | Network isolation, IAM revocation, snapshot preservation | < 30 min |
-| Remediation | Eliminate root cause and restore secure operations | Patch deployment, config correction, access restoration | < 4 hours |
-| Post-Incident | Document findings and implement preventive measures | RCA report, runbook updates, control improvements | < 48 hours |
+| Detection | Identify potential security events through automated monitoring | GuardDuty alerts, CloudTrail analysis, anomaly detection | under 5 min |
+| Triage | Classify severity and determine response priority | Alert scoring, impact assessment, team notification | under 15 min |
+| Containment | Isolate affected resources to prevent lateral movement | Network isolation, IAM revocation, snapshot preservation | under 30 min |
+| Remediation | Eliminate root cause and restore secure operations | Patch deployment, config correction, access restoration | under 4 hours |
+| Post-Incident | Document findings and implement preventive measures | RCA report, runbook updates, control improvements | under 48 hours |
 
 ---
 
@@ -45,11 +45,11 @@ cloud-incident-response-simulation/
 
 | Metric | Before | After | Impact |
 |--------|--------|-------|--------|
-| Mean Time to Detect (MTTD) | 48+ hours | < 10 minutes | **-80% reduction** |
-| Mean Time to Respond (MTTR) | 12+ hours | < 4 hours | **-65% reduction** |
+| Mean Time to Detect (MTTD) | 48+ hours | under 10 minutes | **-80% reduction** |
+| Mean Time to Respond (MTTR) | 12+ hours | under 4 hours | **-65% reduction** |
 | Incident Runbook Coverage | 0 scenarios | 6 documented playbooks | **Full coverage** |
 | Tabletop Exercises | None conducted | Quarterly cadence | **Proactive readiness** |
-| False Positive Rate | 40%+ | < 10% | **Signal clarity** |
+| False Positive Rate | 40%+ | under 10% | **Signal clarity** |
 
 ---
 
